@@ -1,0 +1,49 @@
+name: gallery_app
+description: "personal gallery  app"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.8
+  photo_manager: ^3.6.3
+  permission_handler: ^11.3.1
+  photo_manager_image_provider: ^2.2.0
+  video_player: ^2.9.1
+  flutter_launcher_icons: ^0.13.1
+  intl: ^0.19.0
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/images/ic_app.png"
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+      - family: Cairo
+        fonts:
+          - asset: assets/fonts/Cairo/Cairo-Bold.ttf
+
+
+
